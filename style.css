@@ -1,0 +1,120 @@
+body{
+  /* background-color: bisque; */
+  font-family: 'Sacramento', cursive;
+} 
+
+/* .navbar-header, .navbar-default{
+   background-color: #ffffff; 
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #ffffff;
+    border-bottom: 2px solid #000000;   
+} */
+.into-txt{
+   padding: 19%; 
+   font-family: 'Sacramento', cursive;
+}
+.start-shop-btn{
+  background-color: #333333 !important;
+  color: #ffffff !important;  
+  margin-bottom: 2%;
+}
+.stat-play-icon{
+   font-size: 46px; 
+}
+
+.myvideomodal {
+    /* background-color: coral;
+    padding: 16%;
+    margin-top: 10%;
+    display: block; */
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 100%;
+    padding: 3rem;
+    min-height: 250px;
+    position: absolute;
+    top: 19%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    z-index: 2;
+    padding-bottom: 6%;
+  }
+  .myvideo{
+   display: none; 
+  }
+  .closemodal{
+   display: none;
+   font-size: 39px;
+   float: right;
+   padding-right: 1%;
+   color: #ffffff;
+  }
+  .category-row h2{
+   margin-bottom: 3%;
+   font-family: cursive;
+   padding-left: 4%;
+  }
+ .cloth-icons{
+   font-size: 80px;
+   margin-bottom: 2%;
+ }
+ .cloth-icons i {
+   text-align: center;
+   width: 100%;
+ }
+.productslide {
+   margin-top: 1%;
+}
+.productslide img {
+   border-radius: 25px;
+   margin-bottom: 1%;
+}
+.productslide h2{
+  margin-bottom: 3%;
+  font-family: cursive;
+  padding-left: 4%;
+}
+.proimgslide{
+  margin-bottom: 2%;
+}
+.trendmonth-one {
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 20px;
+  border: 12px solid #ffffff;
+  margin-bottom: 2%;
+}
+.trendmonth-one img {
+  margin-left: -16%;
+}
+.trendmonth-two{
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 20px;
+  border: 12px solid #ffffff;
+  margin-bottom: 2%;
+}
+.trendmonth-sub{
+ background-color: #eeeeee;
+ padding: 5%;
+ border-radius: 25px; 
+}
+.trend-month h2{
+  margin-bottom: 3%;
+}
+.trendmonth-h2{
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+}
+
+
+ @media screen and (min-width: 1200px) {
+   .first-banner img {
+     margin-top: 14%; 
+   }
+ }
